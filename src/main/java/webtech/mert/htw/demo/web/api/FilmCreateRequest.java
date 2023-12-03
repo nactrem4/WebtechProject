@@ -9,6 +9,8 @@ public class FilmCreateRequest {
         this.filmName = filmname;
     }
 
+    public FilmCreateRequest() {}
+
     public String getFilmName() {
         return filmName;
     }
